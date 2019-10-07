@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 239c78a9f7b44bd47af4b7b37d2e8c3f, type: 3}
+  m_Name: PlatinumSword
+  m_EditorClassIdentifier: 
+  _name: Platinum Sword
+  icon: {fileID: 21300022, guid: 664a9fe91dfb4a643aedb71246bf958d, type: 3}
+  recipe:
+    items:
+    - {fileID: 11400000, guid: e9ab696c40d00b842bc002c389fc8acc, type: 2}
+    - {fileID: 11400000, guid: e9ab696c40d00b842bc002c389fc8acc, type: 2}
+    - {fileID: 11400000, guid: e9ab696c40d00b842bc002c389fc8acc, type: 2}
+    - {fileID: 11400000, guid: e9ab696c40d00b842bc002c389fc8acc, type: 2}
+    reward: {fileID: 11400000}
+  Weapon: 1
+  data: {fileID: 11400000, guid: d34d0fa6bc09f604b949527b7efd5907, type: 2}

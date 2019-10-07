@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 239c78a9f7b44bd47af4b7b37d2e8c3f, type: 3}
+  m_Name: CopperSword
+  m_EditorClassIdentifier: 
+  _name: Copper Sword
+  icon: {fileID: 21300010, guid: 664a9fe91dfb4a643aedb71246bf958d, type: 3}
+  recipe:
+    items:
+    - {fileID: 11400000, guid: 5c9ca90c32a1568438d0d484f26381af, type: 2}
+    - {fileID: 11400000, guid: 5c9ca90c32a1568438d0d484f26381af, type: 2}
+    - {fileID: 11400000, guid: 5c9ca90c32a1568438d0d484f26381af, type: 2}
+    - {fileID: 11400000, guid: 27af27eb808e5bf45a19fc6a1b398f0c, type: 2}
+    reward: {fileID: 11400000}
+  Weapon: 1
+  data: {fileID: 11400000, guid: 5f08bfbc703c9214e986f54854f76e42, type: 2}
