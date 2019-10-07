@@ -120,6 +120,7 @@ public class ItemSpawner : MonoBehaviour {
                         GameObject remainObj = (GameObject)Instantiate(remains, transform);
                         item.transform.parent = null;
                         remainObj.transform.parent = null;
+                        remainObj.transform.SetPositionAndRotation(new Vector3(remainObj.transform.position.x, remainObj.transform.position.y, -0.01f), Quaternion.identity);
                         GameObject.Find("GameManager").GetComponent<AudioSource>().PlayOneShot(Resources.Load("Sound/Pebbles") as AudioClip);
                         Destroy(gameObject);
                     }
@@ -138,6 +139,7 @@ public class ItemSpawner : MonoBehaviour {
                 GameObject remainObj = (GameObject)Instantiate(remains, transform);
                 item.transform.parent = null;
                 remainObj.transform.parent = null;
+                remainObj.transform.SetPositionAndRotation(new Vector3(remainObj.transform.position.x, remainObj.transform.position.y, -0.01f), Quaternion.identity);
                 GameObject a = (GameObject)Instantiate(falsePick, transform);
                 a.transform.parent = null;
                 Destroy(a, 3f);
